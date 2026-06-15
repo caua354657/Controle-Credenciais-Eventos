@@ -92,6 +92,9 @@ session_start();
 ?>
 
         <button type="submit" class="btn btn-success w-100">Login</button>
+        <div class="text-center mt-3">
+            <small>Não tem conta? <a href="cadastro_usuarios.php">Cadastre-se</a></small>
+        </div>
     </form>
 </div>
     

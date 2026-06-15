@@ -96,6 +96,9 @@
             <a href="javascript:window.history.back()" class="btn btn-secondary w-50">Voltar</a>
             <button type="submit" class="btn btn-success w-50">Cadastrar</button>
         </div>
+        <div class="text-center mt-3">
+            <small>Já tem conta? <a href="index.php">Faça Login</a></small>
+        </div>
     </form>
 <div>
 
