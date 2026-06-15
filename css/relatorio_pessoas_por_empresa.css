@@ -1,0 +1,41 @@
+body{font-family: 'Open Sans', sans-serif;
+     overflow-y: hidden;
+     background-color: rgb(226, 226, 226);}
+
+.tabela{background-color: #faf7f7;
+        padding: 15px;
+        border-radius: 5px;}
+
+#tabela-responsiva{max-height: calc(100vh - 160px);
+                  padding-bottom: 10px;
+                  overflow-y: auto;}
+
+@media (max-width: 768px) 
+{
+  .nav-item {display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    transition: color 0.3s ease;}
+
+  .nav-item i {font-size: 22px;
+    margin-bottom: 2px;}
+
+  .nav-item:hover{color: #e90c0c;}
+
+  .sidebar {display: none !important;}
+
+  #tabela-responsiva{padding-bottom: 5px;}
+}
+
+#container-tabela{background-color: rgba(88, 215, 253, 0.377);
+                  flex: 1;
+                  padding: 20px;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                  overflow-x: auto;}
+
+#tabela-responsiva table{table-layout: fixed;
+                         width: 3200px;}
